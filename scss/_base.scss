@@ -1,0 +1,32 @@
+// Variables
+// # Breakpoints
+$breakpoint-mobile: 375px;
+$breakpoint-desktop: 1440px;
+// # Colors
+$clr-primary-light: hsl(225, 100%, 94%);
+$clr-primary-bright: hsl(245, 75%, 52%);
+$clr-secondary-pale: hsl(225, 100%, 98%);
+$clr-secondary-desat: hsl(224, 23%, 55%);
+$clr-secondary-dark: hsl(223, 47%, 23%);
+// # Typography
+$fs-body: 16px;
+$ff-primary: "Red Hat Display", sans-serif;
+$fw-regular: 500;
+$fw-bold: 700;
+$fw-thick: 900;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: $fs-body;
+}
+
+a {
+  text-decoration: none;
+}
