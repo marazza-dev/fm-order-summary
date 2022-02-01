@@ -37,6 +37,9 @@ body {
   background-size: 100%;
   background-color: $clr-primary-light;
   padding: 2rem;
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding: 1.5rem;
+  }
 }
 
 a {

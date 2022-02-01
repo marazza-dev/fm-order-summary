@@ -1,4 +1,5 @@
 @use "base" as *;
+
 .card {
   max-width: 400px;
   display: flex;
@@ -27,6 +28,10 @@
   justify-content: center;
   align-items: center;
 
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding: 2.5rem 1.5rem;
+  }
+
   & > h1,
   & > p {
     text-align: center;
@@ -38,12 +43,19 @@
     color: $clr-secondary-dark;
     font-size: 1.85rem;
     margin-bottom: 1rem;
+    @media screen and (max-width: $breakpoint-mobile) {
+      font-size: 1.45rem;
+    }
   }
   & > p {
     color: $clr-secondary-desat;
     font-weight: $fw-regular;
     line-height: 1.65rem;
     margin: 0 0.85rem 1rem 0.85rem;
+    @media screen and (max-width: $breakpoint-mobile) {
+      font-size: 1rem;
+      margin: 0 0.5rem 1rem 0.5rem;
+    }
   }
 }
 
@@ -89,13 +101,17 @@
   border: none;
   outline: none;
   cursor: pointer;
+  @media screen and (max-width: $breakpoint-mobile) {
+    height: 3rem;
+    font-size: 0.95rem;
+  }
 }
 
 .btn--pay {
   background-color: $clr-primary-bright;
   color: $clr-secondary-pale;
   margin-bottom: 1rem;
-  box-shadow: 1px 10px 15px hsla(245, 75%, 52%, 0.404);
+  box-shadow: 1px 10px 20px hsla(245, 75%, 52%, 0.404);
   &:hover {
     background-color: hsl(245, 75%, 70%);
   }
@@ -105,5 +121,14 @@
   color: $clr-secondary-desat;
   &:hover {
     color: $clr-secondary-dark;
+  }
+}
+
+.attribution {
+  font-size: 0.75rem;
+  color: $clr-secondary-dark;
+  & > a {
+    color: $clr-primary-bright;
+    text-decoration: underline;
   }
 }
