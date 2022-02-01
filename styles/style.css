@@ -39,7 +39,7 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  background: #f5f7ff;
+  background: #fff;
   box-shadow: 0 8px 10px -4px #b5c4f0;
 }
 
@@ -97,7 +97,7 @@ a {
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
-  background: #bcc8f71f;
+  background: #f5f7ff;
   border-radius: 15px;
   width: 100%;
   margin: 0 1rem 1.75rem 1rem;
