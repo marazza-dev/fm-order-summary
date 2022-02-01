@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: <a href="https://github.com/marazza-dev/fm-order-summary">https://github.com/marazza-dev/fm-order-summary</a>
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: <a href="https://marazza-dev.github.io/fm-order-summary/">https://marazza-dev.github.io/fm-order-summary/</a>
 
 ---
 
